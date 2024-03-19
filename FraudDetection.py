@@ -8,6 +8,7 @@ from imblearn.over_sampling import SMOTE
 
 # Carregando o dataset
 df = pd.read_csv("CreditCard_FraudDetection_dataset.csv")
+# download link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 # Preparação dos dados
 X = df.drop('Class', axis=1)  # Remove a coluna de classe para formar o conjunto de características
